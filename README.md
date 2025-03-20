@@ -78,7 +78,7 @@ Interface intuitiva para proporcionar uma experiência agradável, independentem
 
 ### 🔗 Links Importantes
 
-- 📄 **Documentação do Projeto**:📎 [Acessar PDF](https://drive.google.com/file/d/1ed5AWG8SNfMRCqvpKOF5Q3z-ZA16SYTK/view?usp=sharing)
+- 📄 **Documentação do Projeto**:📎 [Acessar PDF](https://drive.google.com/file/d/1EChQa4GTcl6J7cgor3TY2jJXtQA4000F/view?usp=sharing)
 - 📬 **Informações de Contato**:  
   - 👤 **Erick Silva** - [GitHub](https://github.com/ericksilva)  
   - 👤 **Anna Beatriz** - [GitHub](https://github.com/annabeatriz)  
