@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-primaria: #4f4394;
+    --cor-secundaria: #131C50;
+    --cor-terciaria: #ffffff;
+    --cor-hover: #272727;
+    
+    --fonte-principal: "Exo 2", sans-serif;
+    --fonte-secundaria: "Krona One", sans-serif;
+}
+
+body {
+
+    background: var(--cor-primaria);
+    height: 100vh;
+    margin: 0;
+
+}
+
+.cabecalho__esquerdo1{
+    width: 64.7275rem; /* Largura da imagem */
+    height: 52.06125rem; /* Altura da imagem */
+    position: relative; /* Permite usar 'top' e 'left' para posicionamento */
+    top: -22.75rem; /* Distância do topo */
+    left: -15.375rem; /* Distância da esquerda */
+    transform: rotate(30deg); /* Rotação da imagem */
+}
+
+.cabecalho__esquerdo__cima{
+    width: 64.7275rem; /* Largura da imagem */ 
+    height:52.06125rem; /* Altura da imagem */
+    position: absolute; /* Permite usar 'top' e 'left' para posicionamento */
+    top: -3.5rem; /* Distância do topo */
+    left: -4.0625rem; /* Distância da esquerda */
+    transform: rotate(-18deg); /* Rotação da imagem */
+}
+
+.cabecalho__direito{
+    width: 24.22rem;
+    height: 12.3125rem;
+    position: absolute;
+    top: 6.0625rem;
+    left: 84.3425rem;
+}
+
+.apresentacao__principal{
+    display: flex;
+    justify-content: column;
+}
+
+.logo__trilhas{
+    width: 44.75rem;
+    height: 8rem;
+    position: absolute;
+    top: 21.8rem;
+    left: 41.87rem;
+}
+
+
+.botoes__funcao {
+    position: relative;
+    top: -19rem;
+    left: 43rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.botoes__topico {
+    width: 20rem;
+    height: 6rem;
+    background-color: var(--cor-secundaria);
+    border-radius: 5rem;
+    padding: 0.75rem 0;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 3.1rem;
+    text-align: center;
+
+}
+
+.botoes__topico:hover {
+    background-color: var(--cor-hover);
+}
+
+.final{
+    width: 17.52rem; 
+    height: 17.52rem;
+    position: absolute;
+    top: 41.68rem;
+    left: 12.125rem;   
+}
+
+.final__direito{
+    width: 30.54rem; 
+    height: 3.8rem;
+    position: absolute;
+    top: 52.8rem;
+    left: 80rem; 
+}
+
+.rodape{
+    color: var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding:1.5rem;
+    position: relative;
+    top: 12.5rem; 
+    width: 100%;  
+}
